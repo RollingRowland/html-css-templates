@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>basic layout</title>
+    <link rel="stylesheet" href="./art.css" type="text/css">
+</head>
+
+<body>
+<!--Header bar-->
+    <header class="header">
+        <h1>Art</h1>
+        <p>Reflections on art history</p>
+    </header>
+
+<!--Navigation bar underneath the header-->
+<!--Customise the style of the header and navigate to the image gallery and about me pages-->
+    <nav class="topnav">
+        <a href="#">Banner Colour</a>
+        <a href="#">Header Font</a>
+        <a href="#">Image Gallery</a>
+        <a href="#" id="corner-link">About Me</a>
+    </nav>
+
+<!--The main content on the page, articles and images. Main articles on the left
+and side content on the right.-->
+<main class="row">
+
+<!--Articles on the left side of the page-->
+    <section class="leftcolumn">
+        <article class="card">
+            <h2>Beyond the floating world: Japanese Prints after Ukiyo-e</h2>
+            <h5>Sosaku and Shin Hanga, Nov 4th, 2020</h5>
+            <figure>
+            <img class="fakeimg" src="Resources/Images/hiroshige-rain.jpg" height="300px" width="200px" alt="fakeimg">
+            <figcaption>A typical example of an ukiyo-e print - "Rain" by Hiroshige (1857)</figcaption>
+            </figure>
+            <p>Ukiyo-e roughly translates to "images of the floating world". It traditionally refers to the prints and paintings of 17th to 19th century Japan that predominantly focused
+                on depicting the activities of the pleasure districts (theatre, sumo and courtesans) in Tokyo, as well as scenes from history/folklore and landscapes.
+            </p>
+            <p>The Ukiyo-e tradition faded towards the end of the 19th century. It successors in the early 20th were heavily influenced by
+                Japans exposure to western artistic traditions. In the world of printmaking two distinct groups of print artists formed, the 
+                "Creative Prints" or "Sosaku Hanga" and "New Prints" or "Shin Hanga". The creative prints made liberal use of western techniques and 
+                were the predominant group of abstract print artists in the country. They departed from traditional methods of Japanese printmaking where 
+                prints were produced by a group of distinct professionals - designers creating images, carvers cutting them and printers producing the 
+                images enmass. Instead these creative print artists were often responsible for the whole process and thus the entirety of the output. 
+                By contrast the "New" print artists actually sought to create new prints in the old ukiyoe fashion, it was an attempt to revive the 
+                techniques and traditions of the past in the new era. The main distinction between the New Prints and the Ukiyo-e of the past was that 
+                while the New Prints picked up on the same genres it did incorporate the western techniques and perspectives that weren't known previously.
+            </p>
+            </article>
+
+        <article class="card">
+            <h2>De Stjil - The two pillars of the art movement</h2>
+            <h5>Piet Mondrian and Theo van Doesburg, Nov 1st, 2020</h5>
+            <figure>
+            <img class="fakeimg" src="Resources/Images/vanDoesburg-Mondrian.png" width="400px" height="200px" alt="fakeimg">
+            <figcaption>Left, work by Theo van Doesburg, right, work by Piet Mondrian</figcaption>
+            </figure>
+            <p>Two of the chief figures behind the De Stijl movement.</p>
+            <p>Piet Mondriaan (1872-1944) and Theo van Doesburg (1883-1931) both born in the Netherlands co-founded De Stijl, which was originally a publication, in 1917. It was committed to 
+                strictly geometrical art in black, white or primary colours. 
+            </p>
+            </article>
+    </section>
+
+<!--Content on the right side of the page-->
+    <section class="rightcolumn">
+        <article class="card">
+            <h2>About Me</h2>
+            <img src="Resources/Images/Me.jpg" height="140px" width="40%" alt="fakeimg">
+            <p>29 Year old rando</p>
+        </article>
+
+        <article class="card">
+            <h2>Popular Posts</h2>
+            <img class="fakeimg" alt="Ukiyo-e">
+            <img class="fakeimg" alt="De Stijl">
+            <img class="fakeimg" alt="About Me">
+        </article>
+
+        <article class="card">
+            <h2>Follow Me</h2>
+            <p>You can follow me on twitter or instagram</p>
+        </article>
+    </section>
+</main>
+</body>
+
+<!--Page footer that spans the bottom of the page-->
+<footer class="footer">
+    <h2>&COPY;Thomas Payne</h2>
+</footer>
+
+</html>
