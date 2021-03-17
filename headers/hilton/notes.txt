@@ -1,0 +1,11 @@
+Based on the youtube video: https://www.youtube.com/watch?v=GxwHXxumdQk of Marc Hilton
+
+Interesting notes:
+
+Uses "display:table", combined with "display:table-cell" and "vertical-align:middle"
+for centering elements.
+
+Uses floats to force position and then height 100% to break inline-block formatting
+
+Uses padding right on the last list element to make it fit tightly to the end 
+of the header bar.
