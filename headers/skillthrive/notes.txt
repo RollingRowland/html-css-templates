@@ -1,0 +1,14 @@
+Based on the youtube video: https://www.youtube.com/watch?v=PwWHL3RyQgk&t=1s of Skillthrive
+
+Interesting notes:
+
+Based on using "display:flex" with justify-content and align-items to order things 
+horizontally and vertically.
+
+Uses the "transition" css style to specify the speed of the onhover effects
+
+Example2 moves the navigation list to the right, and the logo to the left.
+Example3 moves the navigation list to the left, and the logo to the right.
+
+Example 3 uses the "order" style to manually override the order of elements given in the
+html with what is specified in the css.

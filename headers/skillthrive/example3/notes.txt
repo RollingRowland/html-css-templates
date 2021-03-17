@@ -1,0 +1,4 @@
+Alters example1 (NOT example2)
+
+Moves navigation list elements to the left
+Manually reorders elements
