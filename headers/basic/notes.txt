@@ -1,0 +1,4 @@
+This header is significant simply due to the absence of any special styling used to create it.
+
+This header is responsive without using flex, and centres the text only using padding. It makes use of the browsers
+default settings and surrouding margin.
